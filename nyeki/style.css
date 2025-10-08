@@ -1,0 +1,30 @@
+body {
+    margin: 30px;
+    background-color: #aaa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    background-color: #bbb;
+    padding: 40px;
+    border: #000, 3px, solid;
+    border-radius: 20px;
+
+}
+
+.card {
+    grid-template: auto;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: #000, 3px, solid;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.167);
+}
