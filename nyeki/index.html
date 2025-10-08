@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Preprocesszorok</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Mire jók a CSS preprocesszorok?</h1>
-    <h3>Rövid leírás:</h3>
     <p>
-        A CSS-preprocesszorok (előfeldolgozók) olyan szkriptnyelvek, amelyek kibővítik a hagyományos CSS képességeit, és olyan funkciókat adnak hozzá, mint a változók, beágyazott elemek, keverékek (mixinok) és matematikai műveletek, megkönnyítve a karbantarthatóbb, modulárisabb és hatékonyabb CSS írását. Ezeket a speciális szintaxisú kódokat egy fordító (compiler) átalakítja olvasható, szabványos CSS-re, amelyet aztán a böngészők feldolgozhatnak.
+        A CSS-preprocesszorok (előfeldolgozók) olyan szkriptnyelvek, amelyek kibővítik a hagyományos CSS képességeit, és olyan funkciókat adnak hozzá, mint a változók, beágyazott elemek, keverékek (mixinek) és matematikai műveletek, megkönnyítve a karbantarthatóbb, modulárisabb és hatékonyabb CSS írását. Ezeket a speciális szintaxisú kódokat egy fordító (compiler) átalakítja olvasható, szabványos CSS-re, amelyet aztán a böngészők feldolgozhatnak.
     </p>
+    <div class="container">
+        <div class="card">
+            <h3>A hagyományos css</h3>
+            <p>
+                A CSS önmagában elég korlátozott nyelv, nem tudunk függvényeket, feltételeket vagy változókat megadni.
+            </p>
+        </div>
+        <div class="card">
+            <h3>A preprocesszorok</h3>
+            <p>
+                A preprocesszorok ezeket a korlátorásokat tudják feloldani, az előbb említettek pótlásával.
+            </p>
+        </div>
+        <div class="card">
+            <h3>A változók</h3>
+            <p>
+                A változók a CSS-ben átláthatóbbá és karbantarthatóbbá teszik a kódot, valamint az ismétlődő értékeket egy helyen tárolják.
+            </p>
+        </div>
+        <div class="card">
+            <h3>A beágyazott elemek</h3>
+            <p>
+                Olyan HTML elemek, amelyek egy másik HTML elemen belül helyezkednek el, és a külső elem stílusát öröklik vagy attól függetlenül definiálják.
+            </p>
+        </div>
+        <div class="card">
+            <h3>A keverékek</h3>
+            <p>
+                A keverékekkel olyan stílusokat adhatunk meg, amelyeket később újra felhasználhatunk a stíluslapon
+            </p>
+        </div>
+        <div class="card">
+            <h3>A compiler</h3>
+            <p>
+                A speciákis szintaxisú kódokat egy fordítóprogram (compiler) átalakítja olyan szabványos, könnyen értelmezhető CSS-kóddá, amelyet a böngészők képesek feldolgozni.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
