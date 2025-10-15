@@ -28,3 +28,8 @@ body {
 .card:hover {
     transform: scale(1.167);
 }
+
+.image{
+    margin: auto;
+    
+}
