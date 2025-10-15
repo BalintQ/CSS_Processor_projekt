@@ -10,5 +10,16 @@
     align-items: center;
     text-align: center;
     width: 45%;
-    height: 150px;
+}
+
+#balint{
+    font-size: 200%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#balint button{
+    background-color: blue;
+    height: 50px;
+    
 }
