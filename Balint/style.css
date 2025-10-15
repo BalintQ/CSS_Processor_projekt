@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 51%;
+    height: 150px;
+    transition: 4s;
+    background-color: brown;
+    font-size: initial;
+}
+
+.box:hover{
+    height: 750px;
+    width: 90%;
+}
+
+.box h2{
+    transition: 4s;
+
+}
+
+.box:hover h2{
+    font-size:xx-large;
+    
+}
+
+.box span{
+    transition: 2s;
+    visibility: hidden;
+}
+
+.box:hover span{
+    visibility: visible;
+    background-color: rgba(136, 135, 135, 0.7);
+}
+
+#b1{
+    background-image: unset;
+}
+
+#b1:hover{
+    background-image: url(./kepek/logo.svg);
+    background-color: unset;
+    background-attachment: fixed;
+}
+
+
+
+
+h1{
+    transition: 5s;
+    align-self: center;
+    text-align: center;
+}
+
+h1:hover{
+    transform: scale(1.4);
+}
