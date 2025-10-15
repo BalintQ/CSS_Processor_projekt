@@ -20,6 +20,10 @@
 
 #balint button{
     background-color: blue;
-    height: 50px;
-    
+    height: 150px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: 150%;
 }
